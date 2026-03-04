@@ -1,0 +1,43 @@
+# === Paths ===
+data_path: "dataset_encoded.csv"
+codebook_path: "codebook_mapping.tsv" 
+output_dir: "results_descstats"
+
+# === Column names in your dataset (case-sensitive) ===
+paper_id_column: "paper_id"
+year_column: "year"
+
+# Optional explicit encodings; if empty, the script will auto-detect from common Chinese encodings
+data_encoding: ""        # e.g., "gb18030" or "utf-8"
+codebook_encoding: ""    # e.g., "gb18030" or "utf-8"
+
+# 编码列（*_codes）：如果你的列名不同，这里改掉即可
+methodfamily_code_column: "MethodFamily"        # 研究方法（家族/门类）编码
+topic_code_column: "topic"                      # 可选：主题编码；没有就留空或删掉此行
+
+# === Codebook keys ===
+# codebook 应至少包含：variable, code, en_label, cn_label
+codebook_variable_keys:
+  methodfamily: "MethodFamily"           # codebook 中 variable 的值
+  transparency: "MethodTransparency"     # 同上
+  topic: "Topic"                         # 若无 Topic，就留着也没关系，脚本会自动跳过
+
+# === Year bins (closed intervals) ===
+year_bins:
+  - [1999, 2014]
+  - [2015, 2019]
+  - [2020, 2025]
+
+# === Plot & table language ===
+language: "en"   # 强制英文；脚本将统一使用 codebook.en_label
+dpi: 300
+style: "whitegrid"   # seaborn 风格；不喜欢可改 "white" / "darkgrid"
+figsize:
+  width: 9
+  height: 5
+
+# === Optional toggles ===
+save_png: true
+save_csv: true
+show_plots: false   # 服务器/无图形界面建议 false
+rolling_window: 3   # 年度份额的滑动平均窗口大小
