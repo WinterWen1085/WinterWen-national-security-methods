@@ -1,0 +1,35 @@
+variable	code	en_label	cn_label	definition/anchor_short	notes
+MethodTag	10	Normative	规范	以法条/原则/价值与概念辨析为主，缺乏可复核程序锚点。	
+MethodTag	20	Empirical	实证	以可复核的数据/材料与程序展开（定量/定性/混合）。	
+MethodTag	30	Technical	技术	以模型/仿真/算法评测/系统计算为核心程序。	
+MethodTag	40	Philosophical	思辨	以思想/话语/理论阐释为核心论证。	
+Methodology	1	Normative/Doctrinal	规范/法理	以规范解释、原则推演等为主。	
+Methodology	2	Quantitative	定量	统计/计量/实验/模型量化为主。	
+Methodology	3	Qualitative	定性	访谈/民族志/案例/文本分析等为主。	
+Methodology	4	Mixed	混合	定量+定性并用（顺序或并行）。	
+Methodology	5	Technical/Modeling	技术/建模	系统动力学、仿真、机器学习、网络/空间计算等为主。	
+PolicySalience	0	Unknown	未知	证据不足，无法判断。	0=Unknown,1=Low,2=Medium,3=High
+PolicySalience	1	Low	低	仅一般性或零散材料，难以支撑可复核。	0=Unknown,1=Low,2=Medium,3=High
+PolicySalience	2	Medium	中	有限可得的可复核材料/程序，有边界。	0=Unknown,1=Low,2=Medium,3=High
+PolicySalience	3	High	高	高质量/体系化数据与清晰程序，可复核。	0=Unknown,1=Low,2=Medium,3=High
+PoliticalSensitivity	0	Unknown	未知	证据不足，无法判断。	0=Unknown,1=Low,2=Medium,3=High
+PoliticalSensitivity	1	Low	低	仅一般性或零散材料，难以支撑可复核。	0=Unknown,1=Low,2=Medium,3=High
+PoliticalSensitivity	2	Medium	中	有限可得的可复核材料/程序，有边界。	0=Unknown,1=Low,2=Medium,3=High
+PoliticalSensitivity	3	High	高	高质量/体系化数据与清晰程序，可复核。	0=Unknown,1=Low,2=Medium,3=High
+SecrecyConstraint	0	Unknown	未知	证据不足，无法判断。	0=Unknown,1=Low,2=Medium,3=High
+SecrecyConstraint	1	Low	低	仅一般性或零散材料，难以支撑可复核。	0=Unknown,1=Low,2=Medium,3=High
+SecrecyConstraint	2	Medium	中	有限可得的可复核材料/程序，有边界。	0=Unknown,1=Low,2=Medium,3=High
+SecrecyConstraint	3	High	高	高质量/体系化数据与清晰程序，可复核。	0=Unknown,1=Low,2=Medium,3=High
+DataAccess	0	Unknown	未知	证据不足，无法判断。	0=Unknown,1=Low,2=Medium,3=High
+DataAccess	1	Low	低	仅一般性或零散材料，难以支撑可复核。	0=Unknown,1=Low,2=Medium,3=High
+DataAccess	2	Medium	中	有限可得的可复核材料/程序，有边界。	0=Unknown,1=Low,2=Medium,3=High
+DataAccess	3	High	高	高质量/体系化数据与清晰程序，可复核。	0=Unknown,1=Low,2=Medium,3=High
+MethodFamily_9	901	Survey & Statistical	调查/统计计量	调查研究、统计与计量等以样本与统计推断为主。	
+MethodFamily_9	902	Experimental/Quasi/Natural	实验/准实验/自然实验	控制/准控制或利用外生冲击识别因果。	
+MethodFamily_9	903	Modeling/Networks/Computational/Spatial	建模/网络/计算/空间	网络分析、系统动力学、风险决策、机器学习、GIS/空间等计算模拟类。	
+MethodFamily_9	904	Case/Comparative/Historical/Process	案例/比较/历史/过程溯源	单/多案例、历史与比较历史、过程溯源。	
+MethodFamily_9	905	Ethnography/Interviews/Expert/Narrative	民族志/访谈/专家/叙事	田野/参与观察、深访/焦点、德尔菲、叙事/谱系等。	
+MethodFamily_9	906	Text/Content/Discourse Analysis	文本/内容/话语分析	系统化文本/内容/话语编码与解释。	
+MethodFamily_9	907	Policy Analysis & Evaluation (Empirical)	政策分析与评价（实证）	以工具/指标/项目评估等经验性政策研究。	
+MethodFamily_9	908	Mixed & Interdisciplinary Integration	混合与跨学科集成	顺序/并行混合；系统工程/复杂系统与社科整合；参与式/行动研究。	
+MethodFamily_9	909	Normative/Philosophical/Legal-Interpretive	规范/思辨/法学规范解释	非实证取向：理论/概念分析、政策解读（无可复核编码）、法学规范解释、无参数模型构想等。	

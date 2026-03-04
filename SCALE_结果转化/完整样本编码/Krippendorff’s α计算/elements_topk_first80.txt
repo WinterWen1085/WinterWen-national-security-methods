@@ -1,0 +1,3 @@
+Soft-score Top-k 命中（first 80: auto elements -> family soft scores vs manual family）
+Top-1 命中率: 0.037
+Top-2 命中率: 0.138

@@ -1,0 +1,68 @@
+== BN Preflight QA Report ==
+Rows: 800
+
+[MethodTag]
+  10: 146
+  20: 393
+  30: 130
+  40: 131
+
+[MethodFamily]
+  901: 144
+  902: 35
+  903: 118
+  904: 281
+  905: 6
+  906: 55
+  907: 9
+  908: 28
+  909: 124
+
+[Methodology]
+  1: 146
+  2: 45
+  3: 421
+  4: 58
+  5: 130
+
+[PolicySalience]
+  0: 17
+  1: 43
+  2: 292
+  3: 448
+
+[PoliticalSensitivity]
+  0: 264
+  1: 1
+  2: 29
+  3: 506
+
+[SecrecyConstraint]
+  0: 604
+  1: 27
+  2: 1
+  3: 168
+
+[DataAccess]
+  0: 515
+  1: 170
+  2: 62
+  3: 53
+
+[topic]
+  1: 229
+  2: 241
+  3: 296
+  4: 34
+
+== Missing values by column ==
+  paper_id: 0
+  MethodTag: 0
+  MethodFamily: 0
+  Methodology: 0
+  PolicySalience: 0
+  PoliticalSensitivity: 0
+  SecrecyConstraint: 0
+  DataAccess: 0
+  year: 0
+  topic: 0

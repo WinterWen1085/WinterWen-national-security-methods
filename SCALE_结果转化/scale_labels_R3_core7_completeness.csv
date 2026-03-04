@@ -1,0 +1,8 @@
+column,rows,missing_count,missing_rate,unique_values
+paper_id,80,0,0.0,80
+MethodTag_codes,80,7,0.0875,4
+MethodFamily_codes,80,12,0.15,7
+Methodology_codes,80,11,0.1375,4
+MethodTransparency_codes,80,9,0.1125,4
+MethodNormativity_codes,80,11,0.1375,3
+coder_notes_rule_code,80,0,0.0,6

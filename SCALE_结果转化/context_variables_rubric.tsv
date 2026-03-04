@@ -1,0 +1,17 @@
+variable	code	en_label	cn_label	definition/anchor_short	notes
+PolicySalience	0	Unknown	未知	信息不足以判断政策关联或仅泛泛而谈	统一缺省
+PolicySalience	1	Low	低	仅一般性政策提及；不涉及具体政策工具/制度安排；不指向明确政策对象或执行环节	例：宏观愿景/口号层级
+PolicySalience	2	Medium	中	对某一政策领域有明确对象或措施讨论，但未呈现可操作的工具链/评估指标	例：提出治理路径但无实施细则
+PolicySalience	3	High	高	指向具体政策工具、流程、部门职责或评估框架；可直接支撑决策/执行	例：提出条款修改、流程重构、指标体系
+PoliticalSensitivity	0	Unknown	未知	无法判断或文本回避敏感性描述	统一缺省
+PoliticalSensitivity	1	Low	低	一般学术议题；不触及权力结构/制度安排/涉外博弈	例：概念辨析、常规治理优化
+PoliticalSensitivity	2	Medium	中	涉及部门协调、法规调整、涉网安/数据等较敏话题但未触碰高敏红线	例：跨部门治理、数据合规
+PoliticalSensitivity	3	High	高	涉国安核心、涉外冲突、权力再分配、舆论管控等高敏领域	例：反间谍、军民融合、涉疆涉台等
+SecrecyConstraint	0	Unknown	未知	材料来源与内容保密约束不明	统一缺省
+SecrecyConstraint	1	Low	低	公开可得资料；不涉涉密/受限数据	例：公开年鉴、新闻、法规
+SecrecyConstraint	2	Medium	中	包含受限访问数据或需审批获取的信息，但非涉密	例：内部统计、非公开调研
+SecrecyConstraint	3	High	高	涉及国家秘密、商业秘密、军事敏感、个人敏感数据等	例：涉密文件、作战参数
+DataAccess	0	Unknown	未知	数据可得性不明	统一缺省
+DataAccess	1	Low	低	几乎无数据或仅二手泛化材料；难以复核	例：文献/媒体转载
+DataAccess	2	Medium	中	有限可得数据；可复核但有边界（抽样小、准入难）	例：问卷小样本、部门公开简表
+DataAccess	3	High	高	高质量、一手或系统化数据；可复核程序清晰	例：微观行政数据、持续监测数据
